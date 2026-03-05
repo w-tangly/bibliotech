@@ -42,7 +42,7 @@ body{
     color: white;
 }
 
-.cabecalho img{
+.cabecalho img, .desc img{
     width: 200px;
 }
 /* FIM HEADER */
@@ -131,7 +131,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: gray;
+    background-color: #FAFAFF;
+    border:solid 2px rgba(0, 0, 0, 0.10) ;
     border-radius: 15px;
     color: black;
     padding: .5rem 1rem;
@@ -150,4 +151,32 @@ a.btn{
     text-align: center;
     text-decoration: none;
     color: #BE580F;
+    background-color: rgba(190, 88, 15, 0.25);
+    margin-top: 1rem;
+    padding: 0.25rem 4rem;
+    border-radius: 5px;
 }
+
+.autor{
+    color: gray;    
+    font-size: .5em;
+}
+
+.card div p{
+    font-size: 1em;
+}
+/* FIM CARDS */
+
+/* INICIO FOOTER */
+footer{
+    background-color: black;
+    color: white;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+/* FIM FOOTER */
