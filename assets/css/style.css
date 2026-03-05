@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Import fonte: Poppins */
+
+/* GERAL */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+/* HEADER */
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2vh 0;
+    max-height: 15vh;
+}
+
+.itens{
+    display: flex;
+    gap: 25px;
+}
+
+.itens a{
+    color: black;
+    text-decoration: none;
+}
+
+.botao{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background-color: #BE580F;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.cabecalho img{
+    width: 200px;
+}
+/* FIM HEADER */
+
+/* HERO */
+.hero{
+    min-width: 100vw;
+    max-width: 100vw;
+    height: 85vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url("../imgs/main-bg-h.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero h1{
+    color: white;
+    font-weight: 600;
+    font-size: 4em;
+    text-align: center;
+}
+
+.hero h1 span{
+    color: #BE580F;
+}
+
+.hero p{
+    padding-top: -1rem;
+    color: white;
+}
+
+.pesquisa{
+    padding: 1rem;
+    border: none;
+    outline: #BE580F;
+    font-size: 1rem;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.input_container{
+    padding: .4rem .5rem;
+    border-radius: 10px;
+    background-color: rgba(213, 213, 213, 0.75);
+}
+
+.livros{
+    height: 100vh;
+    padding: 2vw;
+}
+
+.input_container .botao{
+    padding: 1rem;
+    font-size: 1rem;
+}
+/* FIM HEADER */
+
+/* INICIO CARDS */
+.header-livros{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.header-livros a{
+    color: #BE580F;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.header-livros a:hover{
+    opacity: .8;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card{
+    background-color: gray;
+    width: 100px;
+    height: 150px;
+    border-radius: 15px;
+    color: white;
+}
