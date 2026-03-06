@@ -176,7 +176,38 @@ footer{
 .flex-row{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: top;
     justify-content: space-around;
+    padding: 2rem 1rem 0;
+}
+
+.redes, .icons{
+    max-width: 2rem;
+}
+
+.desc, .contact-us, .hours-of-operation, .quickLinks{
+    max-width: 25vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-footer{
+    margin: -2rem 0;
+}
+
+.ilist{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    gap: .5rem;
+    margin: .5rem 0;
+}
+
+.horario{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 /* FIM FOOTER */
