@@ -42,6 +42,10 @@ body{
     color: white;
 }
 
+.botao:hover{
+    opacity: .75;
+}
+
 .cabecalho img, .desc img{
     width: 200px;
 }
@@ -134,7 +138,7 @@ body{
     border:solid 2px rgba(0, 0, 0, 0.10) ;
     border-radius: 15px;
     color: black;
-    padding: .5rem 1rem;
+    padding: .5rem .75rem;
 }
 
 .livros{
@@ -156,6 +160,11 @@ a.btn{
     border-radius: 5px;
 }
 
+a.btn:hover{
+    background-color: rgba(190, 88, 15, 0.7);
+    color: white;
+}
+
 .autor{
     color: gray;    
     font-size: .5em;
@@ -165,6 +174,90 @@ a.btn{
     font-size: 1em;
 }
 /* FIM CARDS */
+
+/* INICIO EVENTS */
+.headerEvents{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.sub{
+    color: #BE580F;
+    font-size: .75rem;
+}
+
+.btnEvents{
+    text-decoration: none;
+    color: black;
+    padding: .5rem 1rem;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.btnEvents:hover{
+    background-color: rgba(190, 88, 15, 0.7);
+}
+
+.headerEvents div p:nth-of-type(2){
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.events{
+    background-color: rgb(214, 214, 224, 0.5);
+    padding: 2rem 2rem 4rem;
+}
+
+.cardEvent{
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: left;
+    gap: 1rem;
+    max-width: 30vw;
+}
+
+.row-events{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.data{
+    background-color: rgba(190, 88, 15, 0.25);
+    color: #BE580F;
+    padding: .5rem .75rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.data p:first-of-type{
+    font-weight: 600;
+}
+
+.data p:nth-of-type(2){
+    font-size: .75rem;
+}
+
+.register{
+    color: #BE580F;
+    text-decoration: none;
+}
+
+.register:hover{
+    opacity: .5;
+}
+
+.textEvents p{
+    color: gray;
+}
+/* FIM EVENTS */
 
 /* INICIO FOOTER */
 footer{
@@ -208,5 +301,20 @@ footer{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+
+.quickLinks a{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+}
+
+.direitos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+    margin-top: 1rem;
+    border-top: solid 1.5px rgba(255, 255, 255, 0.5);
 }
 /* FIM FOOTER */
